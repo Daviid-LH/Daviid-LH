@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-size: cover;
+  background-image: url(https://img.freepik.com/vector-premium/codigo-programacion-hecho-codigo-binario-fondo-codificacion-o-hacker-datos-binarios-digitales-codigo-digital-transmision_127544-778.jpg?w=2000);
+}
+
+.section {
+  width: 100%;
+  height: 50vh;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+img {
+  border-radius: 50%;
+  background-size: cover;
+}
+article {
+  padding: 10px;
+  color: aliceblue;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+.active {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-1px);
+}
+.caja {
+  width: 35%;
+  height: auto;
+  margin: 5px;
+  /* align-content: space-evenly; */
+  padding-top: 10px;
+  background: rgba(198, 198, 198, 0.34);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+  display: inline-block;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+.header {
+  display: inline;
+  flex-direction: row;
+  height: 50px;
+}
+
+.card {
+  width: 190px;
+  height: 120px;
+  padding: 0.5rem;
+  background: rgba(198, 198, 198, 0.34);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  transform: skewX(10deg);
+  transition: 0.4s;
+  overflow: hidden;
+  color: white;
+  margin: 5px;
+}
+
+.card:hover {
+  height: 254px;
+  transform: skew(0deg);
+}
+.skills {
+  width: 190px;
+  height: 120px;
+  padding: 0.5rem;
+  background: rgba(198, 198, 198, 0.34);
+  border-radius: 8px;
+  backdrop-filter: blur(5px);
+
+  border-bottom: 3px solid rgba(255, 255, 255, 0.44);
+  border-left: 2px rgba(255, 255, 255, 0.545) outset;
+  box-shadow: -40px 50px 30px rgba(0, 0, 0, 0.28);
+  overflow: hidden;
+  color: white;
+  margin: 5px;
+}
+.card h1 {
+  text-align: center;
+  margin: 1.3rem;
+  color: rgb(218, 244, 237);
+  text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
+}
+.main {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contenedorBlog {
+  display: flex;
+  color: yellow;
+}
+
+.rating {
+  display: block;
+  height: 20px;
+  margin: 0.75rem auto;
+  width: 100px;
+}
+.button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.button:active {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-1px);
+}
+hr {
+  position: relative;
+  margin-top: 15px;
+}
+.fin {
+  margin: auto;
+  display: inline;
+}
+nav {
+  padding: 15px;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+}
+.btnactive {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-1px);
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+footer{
+  color: white;
+}
