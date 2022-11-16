@@ -63,7 +63,6 @@ button:active {
   width: 35%;
   height: auto;
   margin: 5px;
-  /* align-content: space-evenly; */
   padding-top: 10px;
   background: rgba(198, 198, 198, 0.34);
   border-radius: 8px;
@@ -220,15 +219,4 @@ footer{
 .mt-5 {
   margin-top: 10% !important;
 }
-/* @media (min-width: 576px) { 
-  img{
-    width: 40%;
-    height: 40%;
-  }
-  .imgcontainer{
-    justify-content: center;
-    align-items: center;
-
-  }
- } */
 
