@@ -3,6 +3,33 @@
   margin: 0;
   padding: 0; }
 
+.p--100 {
+  color: #EEF1F4; }
+
+.p--200 {
+  color: #DFE3E7; }
+
+.p--300 {
+  color: #CBCFD2; }
+
+.p--400 {
+  color: #B3B6B9; }
+
+.p--500 {
+  color: #9CA0A3; }
+
+.p--600 {
+  color: #7C7F82; }
+
+.p--700 {
+  color: #606365; }
+
+.p--800 {
+  color: #4A4C4F; }
+
+.p--900 {
+  color: #333536; }
+
 .home {
   height: 100%;
   padding-top: 40vh;
@@ -149,8 +176,9 @@
   .about .social-icons {
     display: flex;
     flex-direction: column; }
-  .about footer {
-    transform: rotate(90deg) translate(-3rem, -5rem); }
+
+footer {
+  transform: rotate(90deg) translate(-3rem, -5rem); }
 
 .projects {
   padding-bottom: 2rem; }
@@ -213,8 +241,9 @@
   .projects .social-icons {
     display: flex;
     flex-direction: column; }
-  .projects footer {
-    transform: rotate(90deg) translate(-3rem, -5rem); }
+
+footer {
+  transform: rotate(90deg) translate(-3rem, -5rem); }
 
 .contact {
   height: 100%;
@@ -307,8 +336,6 @@ main {
     main .social-icons a {
       padding: 0.4rem;
       transition: all 0.5s ease-in-out; }
-      main .social-icons a:hover {
-        color: #ff652f; }
 
 footer {
   font-size: 1rem;

@@ -12,6 +12,7 @@
     ),
     url('../img/model-1.jpg') center top;
   background-size: cover;
+  color: map-get($grayscale, 400);
 
   &__name {
     font-size: 5rem;
